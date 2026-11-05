@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apex Dental & Implant Studio | Painless Precision Care</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Google Fonts: Inter & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3, h4, .brand-font {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-teal-500 selection:text-white">
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="flex items-center gap-2.5">
+        <div class="h-10 w-10 rounded-xl bg-teal-600 flex items-center justify-center text-white shadow-md shadow-teal-600/20">
+          <i data-lucide="shield-plus" class="w-6 h-6"></i>
+        </div>
+        <div>
+          <span class="text-xl font-bold tracking-tight text-slate-900 block leading-tight">Apex Dental</span>
+          <span class="text-[11px] font-semibold tracking-wider uppercase text-teal-600">Implant & Aesthetic Studio</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+        <a href="#about" class="hover:text-teal-600 transition-colors">About Us</a>
+        <a href="#services" class="hover:text-teal-600 transition-colors">Treatments</a>
+        <a href="#results" class="hover:text-teal-600 transition-colors">Case Results</a>
+        <a href="#reviews" class="hover:text-teal-600 transition-colors">Testimonials</a>
+        <a href="#faq" class="hover:text-teal-600 transition-colors">FAQs</a>
+      </nav>
+
+      <!-- Header CTAs (Email + WhatsApp) -->
+      <div class="flex items-center gap-3">
+        <!-- Direct Gmail Trigger -->
+        <a href="mailto:contact@apexdentalstudio.com?subject=Inquiry%20from%20Apex%20Dental%20Website&body=Hi%20Apex%20Team%2C%0A%0AI%20would%20like%20to%20inquire%20about%20treatment%20options." 
+           class="hidden sm:inline-flex items-center gap-1.5 px-4 py-2.5 text-xs font-semibold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors">
+          <i data-lucide="mail" class="w-4 h-4 text-slate-500"></i>
+          <span>Email Clinic</span>
+        </a>
+
+        <!-- Direct WhatsApp Redirect -->
+        <a href="https://wa.me/919876543210?text=Hello%20Apex%20Dental%20Team%2C%20I%20would%20like%20to%20book%20an%20appointment." 
+           target="_blank" 
+           rel="noopener noreferrer"
+           class="inline-flex items-center gap-2 px-4 py-2.5 text-xs sm:text-sm font-semibold text-white bg-teal-600 hover:bg-teal-700 rounded-lg shadow-sm shadow-teal-600/30 transition-all hover:scale-[1.02]">
+          <i data-lucide="message-square" class="w-4 h-4"></i>
+          <span>Chat on WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ================= HERO SECTION ================= -->
+    <section class="relative pt-12 pb-20 md:pt-20 md:pb-28 overflow-hidden bg-gradient-to-b from-teal-50/50 via-white to-slate-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Left Column: Value Copy -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-teal-100 text-teal-800 text-xs font-semibold">
+              <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+              <span>ISO 9001:2015 Certified Dental Practice</span>
+            </div>
+            
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-950 tracking-tight leading-[1.15]">
+              Modern, Painless Dentistry. <br>
+              <span class="text-teal-600">Built On Measurable Results.</span>
+            </h1>
+            
+            <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+              From microscopic root canal therapy to lifelong dental implants and invisible aligners. We restore healthy smiles in a sterile, comfortable clinical environment.
+            </p>
+
+            <!-- Dual Action CTAs -->
+            <div class="pt-2 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <!-- WhatsApp Redirect -->
+              <a href="https://wa.me/919876543210?text=Hi%20Doctor%2C%20I%20want%20to%20consult%20regarding%20dental%20treatment."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold rounded-xl shadow-lg shadow-emerald-600/20 transition-all hover:-translate-y-0.5">
+                <i data-lucide="message-circle" class="w-5 h-5"></i>
+                <span>Message on WhatsApp</span>
+              </a>
+
+              <!-- Direct Gmail Link -->
+              <a href="mailto:contact@apexdentalstudio.com?subject=Consultation%20Appointment%20Booking&body=Hello%2C%0A%0AI%20would%20like%20to%20schedule%20an%20appointment.%0A%0AName%3A%0APreferred%20Date%20%26%20Time%3A%0ATreatment%20Required%3A%0AContact%20Number%3A"
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-7 py-3.5 bg-white hover:bg-slate-100 text-slate-800 font-semibold rounded-xl border border-slate-200 shadow-sm transition-all hover:-translate-y-0.5">
+                <i data-lucide="mail" class="w-5 h-5 text-teal-600"></i>
+                <span>Send via Gmail</span>
+              </a>
+            </div>
+
+            <!-- Social Proof Pill -->
+            <div class="pt-4 flex items-center justify-center lg:justify-start gap-6 text-xs text-slate-500 font-medium">
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-teal-600"></i>
+                <span>Same-day Emergency Care</span>
+              </div>
+              <div class="flex items-center gap-1.5">
+                <i data-lucide="star" class="w-4 h-4 text-amber-500 fill-amber-500"></i>
+                <span>4.9/5 Rating (600+ Patients)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Business Metrics Card -->
+          <div class="lg:col-span-5">
+            <div class="bg-white p-6 sm:p-8 rounded-3xl shadow-xl shadow-slate-200/50 border border-slate-100 space-y-6">
+              <div class="flex items-center justify-between pb-4 border-b border-slate-100">
+                <div>
+                  <h3 class="font-bold text-slate-900 text-lg">Apex Performance Stats</h3>
+                  <p class="text-xs text-slate-500">Verified clinical data (2020–2026)</p>
+                </div>
+                <div class="h-3 w-3 rounded-full bg-emerald-500 animate-pulse"></div>
+              </div>
+
+              <!-- Metrics Grid -->
+              <div class="grid grid-cols-2 gap-4">
+                <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                  <span class="text-3xl font-extrabold text-teal-700 block tracking-tight">4,800+</span>
+                  <span class="text-xs font-medium text-slate-600 mt-1 block">Happy Patients Treated</span>
+                </div>
+                <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                  <span class="text-3xl font-extrabold text-teal-700 block tracking-tight">99.4%</span>
+                  <span class="text-xs font-medium text-slate-600 mt-1 block">Implant Success Rate</span>
+                </div>
+                <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                  <span class="text-3xl font-extrabold text-teal-700 block tracking-tight">14+</span>
+                  <span class="text-xs font-medium text-slate-600 mt-1 block">Years Clinical Mastery</span>
+                </div>
+                <div class="p-4 rounded-2xl bg-slate-50 border border-slate-100">
+                  <span class="text-3xl font-extrabold text-teal-700 block tracking-tight">0%</span>
+                  <span class="text-xs font-medium text-slate-600 mt-1 block">Interest EMI Available</span>
+                </div>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-teal-50 border border-teal-100 flex items-start gap-3">
+                <i data-lucide="clock" class="w-5 h-5 text-teal-700 shrink-0 mt-0.5"></i>
+                <div class="text-xs text-teal-900 leading-relaxed">
+                  <span class="font-bold">Immediate Inquiry Response:</span> Messages via WhatsApp are typically answered in under 15 minutes during operating hours.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT THE CLINIC ================= -->
+    <section id="about" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          
+          <div class="relative">
+            <div class="aspect-[4/3] rounded-3xl bg-slate-200 overflow-hidden relative shadow-lg">
+              <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=1000&q=80" 
+                   alt="Modern Dental Clinic Operatory" 
+                   class="w-full h-full object-cover">
+            </div>
+            <div class="absolute -bottom-6 -right-6 hidden sm:block bg-slate-900 text-white p-5 rounded-2xl shadow-xl max-w-xs">
+              <div class="flex items-center gap-3">
+                <i data-lucide="award" class="w-8 h-8 text-teal-400 shrink-0"></i>
+                <div>
+                  <div class="text-sm font-bold">Led by Senior Specialist</div>
+                  <div class="text-xs text-slate-400">Dr. Rajesh Varma (MDS, Prosthodontics)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="space-y-6">
+            <span class="text-xs font-bold uppercase tracking-wider text-teal-600">About Our Practice</span>
+            <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+              A sterile, patient-focused dental studio designed for calm treatments.
+            </h2>
+            <p class="text-slate-600 leading-relaxed text-sm sm:text-base">
+              At Apex Dental Studio, we believe nobody should delay essential oral care due to anxiety or dread of pain. Our clinic is outfitted with German dental units, digital intraoral 3D scanners, and computerized anesthesia delivery that minimizes discomfort.
+            </p>
+            <div class="space-y-3 pt-2">
+              <div class="flex items-center gap-3 text-sm text-slate-700">
+                <i data-lucide="check" class="w-4 h-4 text-teal-600 font-bold"></i>
+                <span>Strict 6-step hospital grade autoclave sterilization protocol</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-slate-700">
+                <i data-lucide="check" class="w-4 h-4 text-teal-600 font-bold"></i>
+                <span>Transparent fixed pricing with no hidden post-treatment charges</span>
+              </div>
+              <div class="flex items-center gap-3 text-sm text-slate-700">
+                <i data-lucide="check" class="w-4 h-4 text-teal-600 font-bold"></i>
+                <span>Custom digital treatment plans showing exact step-by-step progress</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CLINICAL RESULTS / OUTPUTS ================= -->
+    <section id="results" class="py-20 bg-slate-100">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-teal-600">Documented Outcomes</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Real Clinical Results & Transformations
+          </h2>
+          <p class="text-sm sm:text-base text-slate-600">
+            Every smile we touch is engineered for both natural beauty and long-term functional chewing strength.
+          </p>
+        </div>
+
+        <!-- 3 Case Study Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Result Card 1 -->
+          <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800">
+                Completed in 48 Hours
+              </div>
+              <h3 class="text-lg font-bold text-slate-900">Full Arch Dental Implants</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Patient arrived with severe bone resorption and non-restorable failing teeth. Treated with 4 titanium implants and immediate fixed zirconia bridge.
+              </p>
+              <div class="space-y-2 pt-2 text-xs text-slate-700 border-t border-slate-100">
+                <div class="flex justify-between py-1">
+                  <span class="text-slate-500">Output:</span>
+                  <span class="font-semibold text-slate-900">100% Chewing Function Restored</span>
+                </div>
+                <div class="flex justify-between py-1">
+                  <span class="text-slate-500">Discomfort Level:</span>
+                  <span class="font-semibold text-teal-600">Mild / Managed with Medication</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100">
+              <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20know%20about%20Dental%20Implants%20pricing%20and%20procedure." 
+                 target="_blank" 
+                 class="text-xs font-bold text-teal-600 hover:text-teal-700 flex items-center gap-1.5">
+                <span>Inquire About Implants</span>
+                <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Result Card 2 -->
+          <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-indigo-100 text-indigo-800">
+                9-Month Timeline
+              </div>
+              <h3 class="text-lg font-bold text-slate-900">Clear Invisible Aligners</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Corrected moderate lower anterior crowding and midline shift without visible metal wires or dietary restrictions.
+              </p>
+              <div class="space-y-2 pt-2 text-xs text-slate-700 border-t border-slate-100">
+                <div class="flex justify-between py-1">
+                  <span class="text-slate-500">Output:</span>
+                  <span class="font-semibold text-slate-900">Zero Tooth Extractions Required</span>
+                </div>
+                <div class="flex justify-between py-1">
+                  <span class="text-slate-500">Wear Profile:</span>
+                  <span class="font-semibold text-teal-600">Discreet & Removable</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100">
+              <a href="https://wa.me/919876543210?text=Hi%2C%20I%20want%20to%20know%20if%20I%20am%20eligible%20for%20Invisible%20Aligners." 
+                 target="_blank" 
+                 class="text-xs font-bold text-teal-600 hover:text-teal-700 flex items-center gap-1.5">
+                <span>Check Aligner Eligibility</span>
+                <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Result Card 3 -->
+          <div class="bg-white rounded-3xl p-6 shadow-sm border border-slate-200/80 flex flex-col justify-between">
+            <div class="space-y-4">
+              <div class="inline-block px-3 py-1 rounded-full text-xs font-semibold bg-amber-100 text-amber-800">
+                Single Sitting Treatment
+              </div>
+              <h3 class="text-lg font-bold text-slate-900">Micro-Endodontic Root Canal</h3>
+              <p class="text-xs text-slate-600 leading-relaxed">
+                Emergency pulpitis relief with high-powered magnification. Canal disinfected, shaped, and hermetically sealed in a 50-minute sitting.
+              </p>
+              <div class="space-y-2 pt-2 text-xs text-slate-700 border-t border-slate-100">
+                <div class="flex justify-between py-1">
+                  <span class="text-slate-500">Output:</span>
+                  <span class="font-semibold text-slate-900">100% Natural Tooth Preserved</span>
+                </div>
+                <div class="flex justify-between py-1">
+                  <span class="text-slate-500">Pain Relief:</span>
+                  <span class="font-semibold text-teal-600">Instant Post-Procedure</span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-100">
+              <a href="https://wa.me/919876543210?text=Hi%2C%20I%20have%20toothache%20and%20need%20urgent%20Root%20Canal%20help." 
+                 target="_blank" 
+                 class="text-xs font-bold text-teal-600 hover:text-teal-700 flex items-center gap-1.5">
+                <span>Emergency Dental Help</span>
+                <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES OFFERED ================= -->
+    <section id="services" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-teal-600">Comprehensive Treatments</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Specialized Care Under One Roof
+          </h2>
+          <p class="text-sm sm:text-base text-slate-600">
+            Advanced dental procedures carried out with conservative, gentle dentistry principles.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/60 hover:bg-white hover:shadow-lg hover:border-teal-100 transition-all group">
+            <div class="h-12 w-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <i data-lucide="smile" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base mb-2">Cosmetic Veneers</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">
+              Custom wafer-thin porcelain shells designed to fix chipped, gapped, or discolored front teeth with minimal preparation.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/60 hover:bg-white hover:shadow-lg hover:border-teal-100 transition-all group">
+            <div class="h-12 w-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <i data-lucide="shield-check" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base mb-2">Laser Gum Therapy</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">
+              Minimally invasive, scalpel-free soft tissue laser treatments for bleeding gums, gingivitis, and gummy smiles.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/60 hover:bg-white hover:shadow-lg hover:border-teal-100 transition-all group">
+            <div class="h-12 w-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <i data-lucide="sparkles" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base mb-2">Zoom Teeth Whitening</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">
+              In-office clinical brightening that removes coffee, tea, and tobacco stains safely by up to 6–8 shades in under 45 minutes.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl border border-slate-100 bg-slate-50/60 hover:bg-white hover:shadow-lg hover:border-teal-100 transition-all group">
+            <div class="h-12 w-12 rounded-xl bg-teal-100 text-teal-700 flex items-center justify-center mb-5 group-hover:bg-teal-600 group-hover:text-white transition-colors">
+              <i data-lucide="baby" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-bold text-slate-900 text-base mb-2">Pediatric Dentistry</h3>
+            <p class="text-xs text-slate-500 leading-relaxed">
+              Child-friendly preventive checks, fluoride coatings, and cavity sealants delivered in a calm and fear-free atmosphere.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VERIFIED REVIEWS ================= -->
+    <section id="reviews" class="py-20 bg-slate-50 border-t border-slate-200/60">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16 space-y-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-teal-600">Patient Experiences</span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">
+            Trusted by Hundreds of Local Families
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm space-y-4">
+            <div class="flex text-amber-400 gap-1">
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              "I had a severe fear of dentists following a traumatic childhood extraction. Dr. Varma and his team were patient and gentle. My root canal was completely painless. Highly recommended!"
+            </p>
+            <div class="pt-2 border-t border-slate-100 flex items-center gap-3">
+              <div class="h-9 w-9 rounded-full bg-slate-100 flex items-center justify-center font-bold text-xs text-slate-700">AK</div>
+              <div>
+                <div class="text-xs font-bold text-slate-900">Amanpreet Kaur</div>
+                <div class="text-[11px] text-slate-400">Google Review Verified</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm space-y-4">
+            <div class="flex text-amber-400 gap-1">
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              "Got my clear aligners from Apex Dental. The 3D scan took only 10 minutes and the trays arrived fast. The monthly progress checkups were smooth. My smile transformed completely."
+            </p>
+            <div class="pt-2 border-t border-slate-100 flex items-center gap-3">
+              <div class="h-9 w-9 rounded-full bg-slate-100 flex items-center justify-center font-bold text-xs text-slate-700">RS</div>
+              <div>
+                <div class="text-xs font-bold text-slate-900">Rohit Sharma</div>
+                <div class="text-[11px] text-slate-400">Google Review Verified</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 rounded-3xl bg-white border border-slate-200 shadow-sm space-y-4">
+            <div class="flex text-amber-400 gap-1">
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+              <i data-lucide="star" class="w-4 h-4 fill-amber-400"></i>
+            </div>
+            <p class="text-xs text-slate-600 leading-relaxed">
+              "Brought my mother for implant consultations. The doctors explained the CBCT scan thoroughly and didn't push unnecessary procedures. Honest, ethical, and pristine clinic standards."
+            </p>
+            <div class="pt-2 border-t border-slate-100 flex items-center gap-3">
+              <div class="h-9 w-9 rounded-full bg-slate-100 flex items-center justify-center font-bold text-xs text-slate-700">SG</div>
+              <div>
+                <div class="text-xs font-bold text-slate-900">Simran Gill</div>
+                <div class="text-[11px] text-slate-400">Google Review Verified</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ SECTION ================= -->
+    <section id="faq" class="py-20 bg-white">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-12 space-y-3">
+          <span class="text-xs font-bold uppercase tracking-wider text-teal-600">Got Questions?</span>
+          <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Frequently Asked Questions</h2>
+        </div>
+
+        <div class="space-y-4">
+          
+          <div class="border border-slate-200 rounded-2xl overflow-hidden">
+            <button class="w-full text-left p-5 flex items-center justify-between font-semibold text-slate-800 text-sm hover:bg-slate-50 transition-colors" onclick="toggleFaq(1)">
+              <span>Are dental implant surgeries painful?</span>
+              <i id="faq-icon-1" data-lucide="chevron-down" class="w-4 h-4 transition-transform text-slate-500"></i>
+            </button>
+            <div id="faq-ans-1" class="hidden p-5 pt-0 text-xs text-slate-600 leading-relaxed border-t border-slate-100">
+              No. Implant placement is performed under profound local anesthesia. Most patients report feeling only mild vibration and pressure, with less post-procedure discomfort than a standard tooth extraction.
+            </div>
+          </div>
+
+          <div class="border border-slate-200 rounded-2xl overflow-hidden">
+            <button class="w-full text-left p-5 flex items-center justify-between font-semibold text-slate-800 text-sm hover:bg-slate-50 transition-colors" onclick="toggleFaq(2)">
+              <span>Do you accept health or dental insurance?</span>
+              <i id="faq-icon-2" data-lucide="chevron-down" class="w-4 h-4 transition-transform text-slate-500"></i>
+            </button>
+            <div id="faq-ans-2" class="hidden p-5 pt-0 text-xs text-slate-600 leading-relaxed border-t border-slate-100">
+              Yes, we provide official clinical documentation, invoices, and diagnostic X-rays required for claim reimbursement with major health insurance providers.
+            </div>
+          </div>
+
+          <div class="border border-slate-200 rounded-2xl overflow-hidden">
+            <button class="w-full text-left p-5 flex items-center justify-between font-semibold text-slate-800 text-sm hover:bg-slate-50 transition-colors" onclick="toggleFaq(3)">
+              <span>How quickly can I schedule an appointment?</span>
+              <i id="faq-icon-3" data-lucide="chevron-down" class="w-4 h-4 transition-transform text-slate-500"></i>
+            </button>
+            <div id="faq-ans-3" class="hidden p-5 pt-0 text-xs text-slate-600 leading-relaxed border-t border-slate-100">
+              Routine checkups can be scheduled within 24 to 48 hours. Emergency appointments for dental trauma or severe toothaches are prioritized for same-day walk-in or immediate WhatsApp booking.
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= DUAL CONTACT BANNER (GMAIL + WHATSAPP) ================= -->
+    <section class="py-16 bg-slate-900 text-white relative overflow-hidden">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-6">
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+          Ready for a confident, healthy smile?
+        </h2>
+        <p class="text-slate-400 max-w-xl mx-auto text-sm sm:text-base">
+          Contact our front desk directly. No phone queues—choose between sending us an email or starting an instant WhatsApp chat.
+        </p>
+
+        <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <!-- WhatsApp Channel -->
+          <a href="https://wa.me/919876543210?text=Hi%20Apex%20Dental%2C%20I%20would%20like%20to%20reserve%20an%20appointment%20slot." 
+             target="_blank"
+             rel="noopener noreferrer"
+             class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-2xl shadow-lg shadow-emerald-900/40 transition-all hover:scale-105">
+            <i data-lucide="message-square" class="w-5 h-5"></i>
+            <span>Chat on WhatsApp (Instant)</span>
+          </a>
+
+          <!-- Gmail Channel -->
+          <a href="mailto:contact@apexdentalstudio.com?subject=Consultation%20Inquiry%20from%20Website&body=Hi%20Doctor%2C%0A%0AI%20would%20like%20to%20inquire%20about%20your%20services.%0A%0AName%3A%0APhone%3A%0ATreatment%3A"
+             class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-slate-800 hover:bg-slate-700 text-white font-bold rounded-2xl border border-slate-700 transition-all hover:scale-105">
+            <i data-lucide="mail" class="w-5 h-5 text-teal-400"></i>
+            <span>Send Email via Gmail</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="bg-slate-950 text-slate-400 text-xs py-12 border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 mb-8">
+      
+      <div class="space-y-3">
+        <div class="flex items-center gap-2 text-white font-bold text-base">
+          <i data-lucide="shield-plus" class="w-5 h-5 text-teal-500"></i>
+          <span>Apex Dental Studio</span>
+        </div>
+        <p class="leading-relaxed">Providing evidence-based dental care and smile transformations using world-class clinical equipment.</p>
+      </div>
+
+      <div class="space-y-2">
+        <div class="text-white font-semibold text-sm">Clinic Location</div>
+        <p>SCO 42-43, Sector 8-C</p>
+        <p>Main Market Road</p>
+        <p>Open: Mon–Sat (9:30 AM – 7:30 PM)</p>
+      </div>
+
+      <div class="space-y-2">
+        <div class="text-white font-semibold text-sm">Direct Contact</div>
+        <p class="flex items-center gap-2">
+          <i data-lucide="mail" class="w-3.5 h-3.5 text-teal-400"></i>
+          <span>contact@apexdentalstudio.com</span>
+        </p>
+        <p class="flex items-center gap-2">
+          <i data-lucide="phone" class="w-3.5 h-3.5 text-teal-400"></i>
+          <span>+91 98765 43210</span>
+        </p>
+      </div>
+
+      <div class="space-y-2">
+        <div class="text-white font-semibold text-sm">Rapid Links</div>
+        <p><a href="#about" class="hover:text-white transition-colors">Our Specialists</a></p>
+        <p><a href="#results" class="hover:text-white transition-colors">Treatment Results</a></p>
+        <p><a href="#faq" class="hover:text-white transition-colors">Patient FAQs</a></p>
+      </div>
+
+    </div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-slate-900 text-center text-slate-600">
+      &copy; 2026 Apex Dental Studio. All rights reserved.
+    </div>
+  </footer>
+
+  <!-- ================= SCRIPTS ================= -->
+  <script>
+    // Initialize Lucide Icons
+    lucide.createIcons();
+
+    // FAQ Accordion Toggle Function
+    function toggleFaq(id) {
+      const answer = document.getElementById(`faq-ans-${id}`);
+      const icon = document.getElementById(`faq-icon-${id}`);
+      
+      if (answer.classList.contains('hidden')) {
+        answer.classList.remove('hidden');
+        icon.classList.add('rotate-180');
+      } else {
+        answer.classList.add('hidden');
+        icon.classList.remove('rotate-180');
+      }
+    }
+  </script>
+</body>
+</html>
